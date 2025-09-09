@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sidebar Blog Layout</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Playfair+Display&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+
+    <aside class="sidebar">
+      <div class="logo">MyBlog</div>
+      <nav>
+        <a href="#hero">Home</a>
+        <a href="#blog">Blog</a>
+        <a href="#categories">Categories</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#footer">Contact</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      
+      <section class="hero" id="hero">
+        <h1><span class="font1">Hello From</span> <span class="font2">Raj Madheshiya</span></h1>
+        <button class="ripple">Start Reading</button>
+      </section>
+
+      <section class="blog" id="blog">
+        <h2>Recent Posts</h2>
+        <div class="posts">
+          <div class="post">
+            <img src="images2.jpg" alt="Blog 1">
+            <h3>World Fastest Computer</h3>
+            <p>Short summary of Human Brain.</p>
+          </div>
+          <div class="post">
+            <img src="download2.jpg" alt="Blog 2">
+            <h3>MicroChip..</h3>
+            <p>Short summary of Microship</p>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="categories" id="categories">
+        <h2>Categories</h2>
+        <div class="category-buttons">
+          <button>Tech</button>
+          <button>Travel</button>
+          <button>Design</button>
+        </div>
+      </section>
+
+      
+      <section class="subscribe" id="subscribe">
+        <h2>Subscribe</h2>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <button class="subs">Subscribe</button>
+        </form>
+      </section>
+
+      <footer id="footer">
+        <p>Follow Us</p>
+        <div class="social-icons">
+          <a href="#">🌐</a>
+          <a href="#">📘</a>
+          <a href="#">📷</a>
+        </div>
+        <p>&copy; 2025 MyBlog</p>
+      </footer>
+
+    </main>
+
+  </div>
+
+</body>
+</html>
